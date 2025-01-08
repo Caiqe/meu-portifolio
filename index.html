@@ -8,15 +8,16 @@
     <meta name="author" content="Caique Gomes">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <link rel="icon" type="image/svg" href="assets/img/logoteste2.svg" />
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Portifólio</title>
 </head>
 
 <body>
     <header>
 
-        <div id="header_content">
+        <div id="header_content" class="flex">
             <div id="titulo">
-                <h1>Olá, Mundo! Me chamo Caique.</h1>
+                <h1>Caique Gomes</h1>
             </div>
             <div id="menu">
                 <nav>
@@ -32,11 +33,18 @@
 
     <main>
 
-        <section id="about">
+        <section id="about" class="flex_start">
 
-            <h2>Sobre mim</h2>
-            <div id="conteudo">
-                <img src="/assets/img/boneco_caiqe.svg" alt="Foto do Criador do conteudo">
+            <h2>Um pouco sobre mim: </h2>
+
+            <div id="conteudo" class="flex">
+                
+                <img 
+                    src="/assets/img/caiqe_azul.svg" 
+                    alt="Foto do Criador do conteudo"
+                    class="img_profile"
+                    
+                >
                 <article id="sobre_texto">
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officia sapiente minima quod
@@ -45,18 +53,7 @@
                         m ipsum dolor sit amet consectetur adipisicing elit. In voluptates numquam, sit eaque qui
                         incidunt a aliquid minima vero obcaecati tempora deleniti dolor similique repudiandae pariatur
                         blanditiis officiis id corporis?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus reiciendis magnam
-                        voluptatibus, libero amet laboriosam beatae rerum harum earum illum autem consequuntur quos unde
-                        quo? Saepe culpa voluptate tempore ipsum.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officia sapiente minima quod
-                        dolores deserunt fuga laudantium mollitia ut deleniti, a dolorum? Amet ducimus ex a aliquam,
-                        aspernatur sit vero!Lorem
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptates numquam, sit eaque qui
-                        incidunt a aliquid minima vero obcaecati tempora deleniti dolor similique repudiandae pariatur
-                        blanditiis officiis id corporis?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus reiciendis magnam
-                        voluptatibus, libero amet laboriosam beatae rerum harum earum illum autem consequuntur quos unde
-                        quo? Saepe culpa voluptate tempore ipsum.
+                        
                     </p>
                 </article>
 
@@ -64,9 +61,9 @@
 
         </section>
 
-        <section id="video">
-            <h2>Meu Video Favorito</h2>
-            <div id="youtube">
+        <section id="video" class="flex_start">
+            <h2>Meu Video Favorito :</h2>
+            <div id="youtube" class="flex">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/_BNRqQkogUQ?si=j21E10AjviT77-RK"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -77,7 +74,7 @@
 
     </main>
 
-    <footer>
+    <footer class="flex">
 
         <section id="redes_sociais">
             <a href="https://www.linkedin.com/in/cttcaiquegomes/" target="_blank">
@@ -87,11 +84,11 @@
             <a href="https://github.com/Caiqe" target="_blank">
                 <img src="/assets/img/github.svg" alt="">
             </a>
-            <h3>
-                Desenvolvido por Caique Gomes - 2025 🧑🏻‍💻
-            </h3>
+            
         </section>
-
+        <h3>
+            Desenvolvido por Caique Gomes - 2025 🧑🏻‍💻
+        </h3>
     </footer>
 </body>
 
