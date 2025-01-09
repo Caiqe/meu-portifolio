@@ -119,7 +119,10 @@ p{
  }
 
  .img_profile{
-    width: 600px;
+    
+    width: 400px;
+    height: 400px;
+    
  }
  
  #video{
@@ -238,3 +241,7 @@ p{
     text-align: justify;
     font-weight: 600;
  }
+
+
+ 
+ 
