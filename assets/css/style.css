@@ -118,8 +118,12 @@ p {
   gap: 1rem;
 }
 
+#sobre_texto{
+   width: 600px;
+}
+
 .img_profile {
-  width: 600px;
+  width: 700px;
   height: 400px;
 }
 
@@ -241,6 +245,7 @@ form button:hover {
 }
 
 #sobre_projeto p {
+   width: 600px;
   text-align: center;
 }
 
@@ -251,3 +256,5 @@ form button:hover {
   gap: 4rem;
   padding: 2rem;
 }
+
+

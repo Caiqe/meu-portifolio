@@ -34,12 +34,16 @@
         <h2>Um pouco sobre mim:</h2>
 
         <div id="conteudo" class="flex">
-          <img
-            id="foto_criador"
-            class="img_profile"
-            src="./assets/img/caiqe_amarelo.svg"
-            alt="Foto do Criador do conteudo"
-          />
+          <div id="foto_criador">
+            <img
+              class="img_profile"
+              src="./assets/img/caiqe_amarelo.svg"
+              alt="Foto do Criador do conteudo"
+              style="cursor: pointer"
+              onclick="alteraImagem()"
+            />
+          </div>
+
           <article id="sobre_texto">
             <p>
               Olá, Mundo!👋 <br /><br />
@@ -95,7 +99,7 @@
 
       <section id="secao_video">
         <div id="youtube">
-          <h2>Música Favorita :</h2>
+          <h2>Música Favorita:</h2>
           <iframe
             width="560"
             height="315"
@@ -108,7 +112,7 @@
           ></iframe>
         </div>
         <div id="video_motivacional">
-          <h2>Video Motivador:</h2>
+          <h2>Vídeo Motivador:</h2>
           <iframe
             width="560"
             height="315"
@@ -135,5 +139,6 @@
       </section>
       <h3>Desenvolvido por Caique Gomes - 2025 🧑🏻‍💻</h3>
     </footer>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
