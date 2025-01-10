@@ -1,102 +1,139 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Projeto Protifólio">
-    <meta name="author" content="Caique Gomes">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Projeto Protifólio" />
+    <meta name="author" content="Caique Gomes" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
     <link rel="icon" type="image/svg" href="./assets/img/github.svg" />
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+
     <title>Portifólio</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-
-        <div id="header_content" class="flex">
-            <div id="titulo">
-                <h1>Caique Gomes 🧑🏻‍💻</h1>
-            </div>
-            <div id="menu">
-                <nav>
-                    <ul id="menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="contato.html">Contato</a></li>
-                    </ul>
-                </nav>
-            </div>
+      <div id="header_content" class="flex">
+        <div id="titulo">
+          <h1>Caique Gomes 🧑🏻‍💻</h1>
         </div>
-
+        <div id="menu">
+          <nav>
+            <ul id="menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="contato.html">Contato</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>
 
     <main>
+      <section id="about" class="flex_start">
+        <h2>Um pouco sobre mim:</h2>
 
-        <section id="about" class="flex_start">
-
-            <h2>Um pouco sobre mim: </h2>
-
-            <div id="conteudo" class="flex">
-                
-                <img id="foto_criador" class="img_profile"
-                    src="./assets/img/caiqe_amarelo.svg" 
-                    alt="Foto do Criador do conteudo"
-                    
-                    
-                >
-                <article id="sobre_texto">
-                    <p>
-                        Olá, Mundo!👋 <br><br>
-                        Fico feliz que esteja vendo isso! Eu me chamo Caique, estou na trilha para ser um
-                         Desenvolvedor Fullstack e este é o meu primeiro projeto FrontEnd. Estou muito 
-                         feliz por estar conhecendo tantas novas tecnologias.<br><br>
-                        Tenho alguns hobbies, como: Trilhas 🥾, Música 🎵, Filmes 🎬 e Tecnologia 💻.<br><br>
-                        Que tal nos conhecermos? Me mande uma mensagem pelo LinkedIn ou me siga no GitHub.
-                        
-                    </p>
-                </article>
-
+        <div id="conteudo" class="flex">
+          <img
+            id="foto_criador"
+            class="img_profile"
+            src="./assets/img/caiqe_amarelo.svg"
+            alt="Foto do Criador do conteudo"
+          />
+          <article id="sobre_texto">
+            <p>
+              Olá, Mundo!👋 <br /><br />
+              Fico feliz que esteja vendo isso! Eu me chamo Caique, estou na
+              trilha para ser um Desenvolvedor Fullstack e este é o meu primeiro
+              projeto Front-End. Estou feliz por estar conhecendo tantas novas
+              tecnologias.<br /><br />
+              Tenho alguns hobbies, como: Trilhas 🥾, Música 🎵, Filmes 🎬 e
+              Tecnologia 💻.<br /><br />
+              Que tal nos conhecermos? Me mande uma mensagem pelo LinkedIn ou me
+              siga no GitHub.
+            </p>
+          </article>
+        </div>
+        <div id="sobre_tecnologias">
+          <h2>Tecnologias Utilizadas:</h2>
+          <div id="badges" class="flex">
+            <div>
+              <img
+                src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
+                alt="HTML Badge"
+              />
             </div>
-
-        </section>
-
-        <section id="video" class="flex_start">
-            <h2>Minha Música Favorita :</h2>
-            <div id="youtube" class="flex">
-                <iframe 
-                width="560" 
-                height="315" 
-                src="https://www.youtube.com/embed/ysfm_adxRrI?si=alcihpq382X0-V_r" 
-                title="YouTube video player" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" 
-                allowfullscreen></iframe>
+            <div>
+              <img
+                src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
+                alt="CSS Badge"
+              />
             </div>
-        </section>
+            <div>
+              <img
+                src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"
+                alt="JavaScript Badge"
+              />
+            </div>
+          </div>
+          <h2>Sobre o Projeto:</h2>
+          <div id="sobre_projeto">
+            <p>
+              Esse projeto tem como intuito proporcionar um primeiro contato com
+              o Desenvolvimento Front-End.<br /><br />
+              Aqui, pude conhecer e testar algumas tecnologias, como HTML, CSS e
+              JavaScript. O projeto em si consiste em um portfólio para
+              apresentação, trazendo algumas informações pessoais e uma página
+              de contato para preenchimento de um formulário.<br /><br />
+              Experimentei alguns conceitos, como: marcação em HTML, introdução
+              ao CSS, eventos, funções em JavaScript, tipografia,
+              responsividade, colorometria e muito mais...
+            </p>
+          </div>
+        </div>
+      </section>
 
+      <section id="secao_video">
+        <div id="youtube">
+          <h2>Música Favorita :</h2>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/scsubEF2DN8?si=zlrGQMoQ6QW0whuG"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div id="video_motivacional">
+          <h2>Video Motivador:</h2>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/tdXdJkbDxGU?si=5pgpC4h9m_335HL-"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
     </main>
 
     <footer class="flex">
+      <section id="redes_sociais">
+        <a href="https://www.linkedin.com/in/cttcaiquegomes/" target="_blank">
+          <img src="./assets/img/linkedin.svg" alt="Logo Linkedin" />
+        </a>
 
-        <section id="redes_sociais">
-            <a href="https://www.linkedin.com/in/cttcaiquegomes/" target="_blank">
-                <img src="./assets/img/linkedin.svg" alt="Logo Linkedin">
-            </a>
-
-            <a href="https://github.com/Caiqe" target="_blank">
-                <img src="./assets/img/github.svg" alt="">
-            </a>
-            
-        </section>
-        <h3>
-            Desenvolvido por Caique Gomes - 2025 🧑🏻‍💻
-        </h3>
+        <a href="https://github.com/Caiqe" target="_blank">
+          <img src="./assets/img/github.svg" alt="Logo GitHub" />
+        </a>
+      </section>
+      <h3>Desenvolvido por Caique Gomes - 2025 🧑🏻‍💻</h3>
     </footer>
-
-    
-
-</body>
-
+  </body>
 </html>
